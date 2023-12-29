@@ -230,6 +230,33 @@ div {
 
 <h1 style="font-size:40px;" id="hg1">Usana, Heiro Sibud</h1>
 <button type="button" onclick="myFunction()">Change format Name</button>
+<p id="switch"></p>
+<script>
+let day;
+switch (new Date().getDay()) {
+   case 0:
+     day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
+}
+document.getElementById("switch").innerHTML = "Today is " + day;
+</script>
 
 <h4 style="text-align: center;" id="h4">My Javascript</h4>
 
