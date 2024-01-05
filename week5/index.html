@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<!-- Lesson 2.12 Head -->
+<head>
+<title>Personal Profile Page</title>
+</head>
+<script>
+function myFunction() {
+  document.getElementById("hg1").innerHTML = "Heiro Sibud. Usana";
+  }
+</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+<style>
+body {
+  background-image: url("mlbb.png");
+  }
+
+
+#hg1{
+    border-style:inset;
+    border-color: white;
+	border-width: 10px;
+	text-align: center;
+	font-style: oblique;
+	font-family: "Sofia", sans-serif;	
+	}
+	
+#heading2 {
+    text-align: left;
+	font-size: 30px;
+	font-style: oblique;
+	margin-top: 0px;
+	margin-left: 0px;
+	border: 1px double black;
+	background: white;
+	
+  }
+  
+#img1 {
+     margin-left: 0; 
+     width: 250px;
+	 border: 5px double black;
+  }
+
+
+  
+#parag2 {
+   border: 1px double black;
+   background: white;
+   width: 700px;
+   text-align: center;
+   margin-left: 500px;
+   margin-top: 0;
+  }
+  
+div {
+   float: left;
+   padding: 15px;
+   margin-left: 50px;
+   
+  }
+  
+#div1 {
+   background: white;
+   border:5px double black;
+   width: 400px;
+   font-size: 19px;
+  }
+  
+#div2 {
+    background: white;
+    border:5px double black;
+    width: 400px;
+    font-size: 19px;
+  }
+  
+#div3 {
+    background: white;
+    border:5px double black;
+    width: 300px;
+    font-size: 19px;
+  }
+  
+#div4 {
+    background: white;
+    border:5px double black;
+    width: 300px;
+    font-size: 19px;
+  }
+  
+#div5 {
+    background: white;
+    border:5px double black;
+    width: 300px;
+    font-size: 19px;
+	margin-left: 350px;
+	margin-top: 25px;
+  }
+
+#div6 {
+    background: white;
+    border:5px double black;
+    width: 300px;
+    font-size: 19px;
+	margin-left: 300px;
+	margin-top: 25px;
+  }
+  
+#divone {
+    background: white;
+    border:5px double black;
+    width: 300px;
+    font-size: 19px;
+	margin-left: 300px;
+ }
+ 
+#divtwo {
+    background: white;
+    border:5px double black;
+    width: 300px;
+    font-size: 19px;
+	margin-left: 100px;	
+ }
+
+#divtree {
+    background: white;
+    border:5px double black;
+    width: 300px;
+    font-size: 19px;
+	margin-left: 100px;
+ }
+ 
+#divfour {
+    background: white;
+    border:5px double black;
+    width: 300px;
+	margin-left: 100px;
+
+  }
+  
+#divfive {
+    background: white;
+    border:5px double black;
+    width: 300px;
+	margin-left: 100px;
+ }
+ 
+#divsix {
+    background: white;
+    border:5px double black;
+    width: 300px;
+	margin-left: 100px;
+  }
+
+#divOne {
+    background: white;
+    border:5px double black;
+    width: 300px;
+	margin-left: 100px;
+  }
+ 
+#divTwo {
+    background: white;
+    border:5px double black;
+    width: 300px;
+	margin-left: 650px;
+	margin-top: 50px;
+ }
+
+
+ 
+  
+#parag3 {
+   border:5px double white;
+   width: 500px;
+   font-size: 19px;
+  }
+     
+#head1 {
+	font-size: 30px;
+	font-style: oblique;
+	margin-top: 180px;
+	margin-left: 0px;
+	border: 1px double black;
+	background: white;
+	
+  }
+
+ #head2 {
+    text-align: center;
+	font-size: 30px;
+	font-style: oblique;
+	margin-top: 350px;
+	border: 1px double black;
+	background: white;
+  }
+
+#parag4 {
+    border: 1px double black;
+	background: white;
+	width: 1000px;
+	text-align: center;
+	margin-left: 400px;
+  }
+  
+#head3 {
+    text-align: center;
+	font-size: 30px;
+	font-style: oblique;
+	margin-top: 400px;
+	border: 1px double black;
+	background: white;
+  }
+
+#h4 {
+	font-size: 30px;
+	font-style: oblique;
+	border: 4px double black;
+	background: white;
+	width: 250px;
+	margin-left: 0px;
+	
+  }
+  
+#switch {
+   color: white;
+   font-size: 16px;
+  }
+
+  
+
+ 	
+</style>
+<body>
+
+<h1 style="font-size:40px;" id="hg1">Usana, Heiro Sibud</h1>
+<button type="button" onclick="myFunction()">Change format Name</button>
+
+<script>
+window.alert(10 + 9);
+</script>
+
+<p id="switch"></p>
+<script>
+let day;
+switch (new Date().getDay()) {
+   case 0:
+     day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
+}
+document.getElementById("switch").innerHTML = "Today is " + day;
+</script>
+
+<h4 style="text-align: center;" id="h4">My Javascript</h4>
+
+<p id="demo"></p>
+
+<script>
+let person = "Heiro Usana";
+let answer = 'Yes it is me!';
+let age = 19;
+let province = "Cavite";
+let city = "Trece Martires City"
+document.getElementById("demo").innerHTML =
+person + "<br>" + answer + "<br>" + age + "<br>" + province + "<br>" + city + "<br>";
+</script>
+
+<img id="img1" src="img_handsome.png" alt="White T-shirt with watch" width="300" height="300"> 
+<h2 style="text-align:center;" id="heading2" >About Me!</h2>
+<p id="parag2"> I am a student from APC (Asia Pacific College) and I am currently a 2nd-year college student.</p>
+<!-- Lesson 2.22 - Images -->
+
+<!-- Lesson 2.1 - Headings -->
+<!-- Lesson 2.2 - Paragraphs -->
+
+<!-- Lesson 2.4 - Formatting -->
+<div id="div1"> <b>Age:</b> 19 <br>
+    <b>Gender:</b> Male <br> 
+    <b>Scholarship:</b> AFP-OLC Scholarship for Armed Forces </div>
+
+<!-- Lesson 2.1 - Headings -->
+<!-- Lesson 2.3 - Styles -->
+<div id="div2"> <b>My last School Attend</b> <br>
+          I am graduated from Francisco Osorio Integrated <br>
+		  Senior High School. My School located in Trece <br>
+		  Martires City.</div>
+<!-- Lesson 2.3 - Styles -->
+<div id="div3"> <b>Why did you choose this course?</b> <br>
+          Because I want to learn more about IT, <br>
+		  and I want to improve my coding skills.</div>
+<!-- Lesson 2.1 - Headings -->
+<!-- Lesson 2.3 - Styles -->
+<div id="div4" > <b>IT Experience</b> <br> 
+           My IT experience last year includes programming <br>
+		   in languages such as Python and Java.</div>
+<!-- Lesson 2.1 - Headings -->
+<!-- Lesson 2.3 - Styles -->
+<h1 style="text-align: center;" id="head1">My Hobbies</h1>
+<!-- Lesson 2.14 - Lists -->
+<div style="text-align: center;" id="div5"> <b>Basketball</b> <br>
+   <img src="img_basketball.png" alt="The black he is Stephen Curry"> </div>
+   
+<div style="text-align: center;" id="div6"> <b>Mobile Legends</b> <br>
+   <img src="img_ml.png" alt="Heroes in ML"> </div>
+
+<!-- Lesson 2.1 - Headings -->
+<!-- Lesson 2.3 - Styles -->
+<h2  id="head2">My Goals in my Life</h2>
+<!-- Lesson 2.2 - Paragraphs -->
+<p style="text-align:center;" id="parag4"> My goal in my life is to graduate and focus on college because I want to finish my studies, this is the way to make all my dreams come true.</p>
+<div id="divone"> <img src="grad1.jpg" alt="Graduation" width="300" height="300"> </div>
+<div id="divtwo"> <img src="grad2.jpg" alt="Graduation Day" width="300" height="300"> </div>
+<div id="divtree"> <img src="grad3.jpg" alt="Graduation Dream" width="300" height="300"> </div>
+
+
+<h3 id="head3" style="text-align:center;">My Idol and my Main Hero in MLBB</h3>
+<div id="divfour"> <img src="kairi.jpg" alt="Pro Player" width="300" height="300"> </div>
+<div id="divfive"> <img src="gusion.jpg" alt="My main Hero" width="300" height="300"> </div>
+<div id="divsix"> <img src="ling.jpg" alt="My 2nd main Hero" width="300" height="300"> </div>
+<div id="divOne"> <img src="haya.jpg" alt="My 3rd main Hero" width="300" height="300"> </div>
+<div id="divTwo"> <img src="lancelot.jpg" alt="My 4th main Hero" width="300" height="300"> </div>
+
+
+
+</body>
+
+</html>
