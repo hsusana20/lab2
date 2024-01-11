@@ -12,6 +12,25 @@ function myFunction() {
 </script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
 <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
 body {
   background-image: url("mlbb.png");
   }
@@ -228,18 +247,12 @@ div {
  	
 </style>
 <body>
-<hr>
-<nav>
-<table cellspacing="5" cellpadding="5">
-<tr>
-<td><a href="index.html"</a>Home</td>
-<td><a href="family.html"</a>Family Introduction</td>
-<td><a href="my pets.html"</a>My Pets</td>
-<td><a href="achievement.html"</a>My Achievement</td>
-</tr>
-</nav>
-<hr>
-
+<ul>
+  <li><a href="index.html"</a>Home</li>
+  <li><a href="family.html"</a>Family Introduction</li>
+  <li><a href="my pets.html"</a>My Pets</li>
+  <li><a href="achievement.html"</a>My Achievement</li>
+</ul>
 <h1 style="font-size:40px;" id="hg1">Usana, Heiro Sibud</h1>
 <button type="button" onclick="myFunction()">Change format Name</button>
 
