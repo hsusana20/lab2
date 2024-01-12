@@ -70,7 +70,10 @@ div {
    border: 10px double white;
    width: 300px;
    }
-
+#demo {
+  text-align: center;
+  font-size: 20px;
+  }
 
 </style>
 <body>
@@ -82,6 +85,13 @@ div {
 </ul>
 
 <h1 id="h1"><b>My Family</b></h1>
+<p id="demo"></p>
+
+<sript>
+let text = "Happy";
+text += " Family";
+document.getElementById("demo").innerHTML = text;
+</sript>
 
 <div id="div2"> <img src="father.png" alt="father" width="300" height="300"></div>
 <div id="div1"> <b>This is my father his name is Heinrich Usana, he is 50 years<br>
