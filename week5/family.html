@@ -3,6 +3,11 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>My Family Introduction</title>
+<script>
+function goBack() {
+  window.history.back()
+}
+</script>
 </head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
 <style>
@@ -83,10 +88,15 @@ div {
   font-size: 25px;
   color: white;
   }
+#btn1 {
+  float: left;
+  margin-left: 10px;
+  }
 
 </style>
 <body>
 <h1 id="h1"><b>My Family</b></h1>
+<input id="btn1" type="button" value="Back" onclick="goBack()">
 <p id="demo"></p>
 <script>
 let text = "Happy";
