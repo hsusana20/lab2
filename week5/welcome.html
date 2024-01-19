@@ -80,11 +80,10 @@ nav a:hover {
 #txt {
   color: white;
   font-size: 18px;
+  float: left;
   }
   
 </style>
-<body onload="startTime()">
-<div id="txt">
 <script>
 function startTime() {
   const today = new Date();
@@ -101,9 +100,9 @@ function checkTime(i) {
   if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
   return i;
 }
-</div>
 </script>
-   
+<body onload="startTime()">
+<div id="txt"></div>  
 <div id="d1">
   <h1 id="h1"><b>"Hi I'm Heiro Usana"</b></h1>
   <p id="p1"><b>Welcome to my Personal Profile,<br>
