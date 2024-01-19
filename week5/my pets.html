@@ -23,6 +23,26 @@ body {
   float: left;
   margin-left: 15px;
   }
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 </style>
 <body>
   <header>
@@ -37,7 +57,32 @@ document.getElementById("myBtn").addEventListener("click", function() {
   alert("Arf Arf!");
 });
 </script>
+<div class="gallery">
+  <a target="_blank" href="lucky.png">
+    <img src="lucky.png" alt="mother dog" width="600" height="400">
+  </a>
+  <div class="desc"><b>Name: Lucky</b></div>
+</div>
 
+<div class="gallery">
+  <a target="_blank" href="dagul.png">
+    <img src="dagul.png" alt="baby dog" width="600" height="400">
+  </a>
+  <div class="desc"><b>Name: Dagul</b></div>
+</div>
 
+<div class="gallery">
+  <a target="_blank" href="dina.png">
+    <img src="dina.png" alt="baby dog" width="600" height="400">
+  </a>
+  <div class="desc"><b>Name: Dina</b></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="oreo.png">
+    <img src="oreo.png" alt="white dog" width="600" height="400">
+  </a>
+  <div class="desc"><b>Name: Oreo</b></div>
+</div>
 </body>
 </html> 
