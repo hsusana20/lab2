@@ -88,6 +88,10 @@ nav a:hover {
   margin-left: 15px;
   font-weight: bold;
   }
+#btn2 {
+  float: left;
+  margin-left: 15px;
+}  
   
 </style>
 <script>
@@ -114,6 +118,16 @@ function checkTime(i) {
    function myFunction() {
      alert("Thank you for visiting my Profile Page!");
 }
+</script>
+<button id="btn2" onclick="changeColor()">Change Color</button>
+  <script>
+    let colors = ["blue", "red", "green", "orange", "purple"]; // Add more colors as needed
+    let colorIndex = 0;
+
+    function changeColor() {
+      document.getElementById("h1").style.color = colors[colorIndex];
+      colorIndex = (colorIndex + 1) % colors.length;
+    }
 </script>
 <body onload="startTime()">
 <div id="txt"></div>  
