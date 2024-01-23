@@ -84,6 +84,7 @@ document.getElementById("myBtn").addEventListener("click", function() {
   }
   myMessage();
 ?>
+</div>
 
 <div class="gallery">
   <a target="_blank" href="lucky.png">
