@@ -92,6 +92,12 @@ nav a:hover {
   float: left;
   margin-left: 15px;
 }  
+
+#div2 {
+  float: right;
+  color: white;
+  margin-right: 15px;
+}
   
 </style>
 <script>
@@ -162,6 +168,7 @@ function checkTime(i) {
          }
 }
 ?>
+</div>
 
    
    
