@@ -62,6 +62,13 @@ div.desc {
   color: white;
 }
 
+#variable {
+	text-align: center;
+	color: white;
+	font-style: italic;
+	font-size: 15px;
+}
+
 </style>
 <body>
 <h1 id="h1"><b>My Family</b></h1>
@@ -72,6 +79,14 @@ let text = "Happy";
 text += " Family";
 document.getElementById("demo").innerHTML = text;
 </script>
+
+<div id="variable">
+  <?php
+  $txt = "My Family";
+  echo " I Love $txt!";
+?>
+</div>
+
 
 <div class="gallery">
   <a target="_blank" href="father.png">
