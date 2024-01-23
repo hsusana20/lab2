@@ -170,6 +170,13 @@ function checkTime(i) {
 ?>
 </div>
 
+<pre>
+<?php
+$nba = array("Stephen Curry", "Lebron James", "Kyrie Irving");
+
+var_dump($nba);
+?>
+</pre>
    
    
 
