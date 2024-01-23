@@ -50,6 +50,12 @@ div.desc {
  font-size: 16px;
  text-align: center;
  }
+ 
+#message {
+	color: white;
+	text-align: center:
+	font-size: 15px;
+}
 </style>
 <body>
   <header>
@@ -70,6 +76,14 @@ document.getElementById("myBtn").addEventListener("click", function() {
   echo "<h2><b>I Love All My Pets</b></h2>";
 ?>
 </div>
+
+<div id="message">
+  <?php
+  function myMessage() {
+	  echo "This is My Favorite Pets!";
+  }
+  myMessage();
+?>
 
 <div class="gallery">
   <a target="_blank" href="lucky.png">
