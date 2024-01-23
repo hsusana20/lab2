@@ -98,6 +98,12 @@ nav a:hover {
   color: white;
   margin-right: 15px;
 }
+
+#array {
+	color: white;
+	float: left;
+	margin-left: 10px;
+}
   
 </style>
 <script>
@@ -170,6 +176,7 @@ function checkTime(i) {
 ?>
 </div>
 
+<div id="array">
 <pre>
 <?php
 $nba = array("Stephen Curry", "Lebron James", "Kyrie Irving");
@@ -177,6 +184,7 @@ $nba = array("Stephen Curry", "Lebron James", "Kyrie Irving");
 var_dump($nba);
 ?>
 </pre>
+</div>
    
    
 
