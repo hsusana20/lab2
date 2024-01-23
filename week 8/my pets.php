@@ -53,7 +53,7 @@ div.desc {
  
 #h3 {
 	color: white;
-	text-align: center:
+	text-align: center;
 	font-size: 15px;
 }
 </style>
