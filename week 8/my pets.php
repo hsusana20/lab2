@@ -51,7 +51,7 @@ div.desc {
  text-align: center;
  }
  
-#message {
+#h3 {
 	color: white;
 	text-align: center:
 	font-size: 15px;
@@ -77,10 +77,10 @@ document.getElementById("myBtn").addEventListener("click", function() {
 ?>
 </div>
 
-<div id="message">
+<div id="h3">
   <?php
   function myMessage() {
-	  echo "This is My Favorite Pets!";
+	  echo "<h3><b>This is My Favorite Pets!</b></h3>";
   }
   myMessage();
 ?>
