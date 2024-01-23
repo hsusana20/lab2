@@ -44,7 +44,7 @@ div.gallery {
   margin: 55px;
   border: 1px solid white;
   float: left;
-  width: 3000px;
+  width: 300px;
 }
 
 div.gallery:hover {
