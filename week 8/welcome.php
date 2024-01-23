@@ -103,6 +103,7 @@ nav a:hover {
 	color: white;
 	float: right;
 	margin-right: 10px;
+	margin-top: 10px;
 }
   
 </style>
