@@ -44,6 +44,12 @@ div.desc {
   text-align: center;
   color: white;
 }
+
+#h2 {
+ color: white;
+ font-size: 16px;
+ text-align: center;
+ }
 </style>
 <body>
   <header>
@@ -58,6 +64,13 @@ document.getElementById("myBtn").addEventListener("click", function() {
   alert("Arf Arf!");
 });
 </script>
+
+<div id="h2">
+  <?php
+  echo "<h2><b>I Love All My Pets</b></h2>";
+?>
+</div>
+
 <div class="gallery">
   <a target="_blank" href="lucky.png">
     <img src="lucky.png" alt="mother dog" width="600" height="400">
