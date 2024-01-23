@@ -155,18 +155,7 @@ function checkTime(i) {
    <a href="https://www.facebook.com/heiro.usana.5" target="_blank"><img src="fb.gif" alt="fb icon" style="width:100px;height:100px;"></a>
    <a href="https://www.tiktok.com/@keep_sil3nt?lang=en" target="_blank"><img src="tiktok.gif" alt="tiktok icon" style="width:100px;height:100px;"></a>
    <a href="https://www.youtube.com/channel/UCJSfFWsiw49X7JA1GBBXjwQ" target="_blank"><img src="yt.gif" alt="yt icon" style="width:100px;height:100px;"></a>
-</div>
-
-<div id="array">
-  <pre>
-  <?php
-  $nba = array("Stephen Curry", "Lebron James", "Kyrie Irving");
-
-  var_dump($nba);
-?>
-</pre>
-</div>
-   
+</div>   
 
 <div id = "div2">
      <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
@@ -185,6 +174,16 @@ function checkTime(i) {
          }
 }
 ?>
+</div>
+
+<div id="array">
+  <pre>
+  <?php
+  $nba = array("Stephen Curry", "Lebron James", "Kyrie Irving");
+
+  var_dump($nba);
+?>
+</pre>
 </div>
 
 
