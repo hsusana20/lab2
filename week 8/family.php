@@ -44,7 +44,7 @@ div.gallery {
   margin: 55px;
   border: 1px solid white;
   float: left;
-  width: 280px;
+  width: 3000px;
 }
 
 div.gallery:hover {
@@ -75,7 +75,7 @@ document.getElementById("demo").innerHTML = text;
 
 <div class="gallery">
   <a target="_blank" href="father.png">
-    <img src="father.png" alt="my father" width="900" height="500">
+    <img src="father.png" alt="my father" width="700" height="500">
   </a>
   <div class="desc"><b>This is my father his name is Heinrich Usana, he is 50 years<br>
 old. My father is a soldier in Air Force. He is hardworking, kind,<br>
@@ -84,7 +84,7 @@ kind, helpul and most of all he always puts us first before himself.</b></div>
 
 <div class="gallery">
   <a target="_blank" href="mother.png">
-    <img src="mother.png" alt="my mother" width="900" height="500">
+    <img src="mother.png" alt="my mother" width="700" height="500">
   </a>
   <div class="desc"><b>This is my mother her name is Rosabella Usana, she is 50 years<br>
 old. She is kind, hardworking just like my father, delicious<br>
@@ -93,7 +93,7 @@ and a good cook</b></div>
 
 <div class="gallery">
   <a target="_blank" href="my sister.png">
-    <img src="my sister.png" alt="my sister" width="900" height="500">
+    <img src="my sister.png" alt="my sister" width="700" height="500">
   </a>
   <div class="desc"><b>This is my eldest sister her name is Rica Rose Usana,  <br>
 she is 22 years old. She works in Cebu Pacific and is <br>
@@ -103,7 +103,7 @@ is kind and hardworking just like them mom.</b></div>
 
 <div class="gallery">
   <a target="_blank" href="youngest sister.png">
-    <img src="youngest sister.png" alt="youngest" width="900" height="500">
+    <img src="youngest sister.png" alt="youngest" width="700" height="500">
   </a>
   <div class="desc"><b>This is my youngest sister her name is Erich Usana, she is <br>
 17 years old. She is in grade 11 now and his grade is high <br>
