@@ -4,6 +4,11 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Personal Profile Page</title>
+<script>
+function goBack() {
+  window.history.back()
+}
+</script>
 </head>
 <script>
 function myFunction() {
@@ -13,13 +18,14 @@ function myFunction() {
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
 <style>
 body {
-  background-image: url("bg.gif");
+   background-image: url("bg.gif");
   }
-
+  
 
 #hg1{
     border-style:inset;
-    border-color: white;
+    border-color: black;
+	color: white;
 	border-width: 10px;
 	text-align: center;
 	font-style: oblique;
@@ -46,11 +52,8 @@ body {
 
   
 #parag2 {
-   border: 1px double black;
-   background: white;
-   width: 700px;
+   color: white;
    text-align: center;
-   margin-left: 500px;
    margin-top: 0;
   }
   
@@ -62,31 +65,23 @@ div {
   }
   
 #div1 {
-   background: white;
-   border:5px double black;
-   width: 400px;
-   font-size: 19px;
+   color: white;
+   font-size: 16px;
   }
   
 #div2 {
-    background: white;
-    border:5px double black;
-    width: 400px;
-    font-size: 19px;
+    color: white;
+    font-size: 16px;
   }
   
 #div3 {
-    background: white;
-    border:5px double black;
-    width: 300px;
-    font-size: 19px;
+    color: white;
+    font-size: 16px;
   }
   
 #div4 {
-    background: white;
-    border:5px double black;
-    width: 300px;
-    font-size: 19px;
+    color: white;
+    font-size: 16px;
   }
   
 #div5 {
@@ -197,11 +192,8 @@ div {
   }
 
 #parag4 {
-    border: 1px double black;
-	background: white;
-	width: 1000px;
+	color: white;
 	text-align: center;
-	margin-left: 400px;
   }
   
 #head3 {
@@ -223,18 +215,27 @@ div {
 	
   }
   
+#demo {
+ color: white;
+   }
+  
 #switch {
    color: white;
    font-size: 16px;
+   right: 0;
   }
-
-  
-
- 	
+#header1 {
+  width: 300px;
+  }
+#btnb {
+  float: right;
+  margin-right; 10px;
+}  
+	
 </style>
 <body>
-
 <h1 style="font-size:40px;" id="hg1">Usana, Heiro Sibud</h1>
+<input id="btnb" type="button" value="Back" onclick="goBack()">
 <button type="button" onclick="myFunction()">Change format Name</button>
 
 <script>
