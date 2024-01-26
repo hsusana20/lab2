@@ -8,6 +8,13 @@
    <div id="logo">
    <img src="lesly.gif" alt="mm" style="width:200px;height:200px;"> 
    </div>
+<nav>
+   <a href="welcome.html">Home</a>
+   <a href="index.html">About Me</a>
+   <a href="family.html">My Family</a>
+   <a href="my pets.html">My Pets</a>
+   <a href="forms.php">Forms</a>
+</nav>
 </header>
 <style>
 .error {color: #FF0000;}
@@ -16,6 +23,30 @@ body {
   background-image: url("bg.gif");
 }
 
+header {
+     padding: 10px;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    }
+
+nav {
+   display: flex;
+  }
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 200px;
+	text-align: center;
+	font-size: 25px;
+	font-style: bold;
+  }
+
+nav a:hover {
+      background-color: #555;
+    }
 
 #div1 {
 	color: white;
