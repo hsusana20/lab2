@@ -15,7 +15,7 @@ body {
 	color: white;
 	font-size: 16px;
 	float: left;
-	margin-left: 190px;
+	margin-left: 220px;
 	margin-top: 100px;
 	border-style: double;
 	border-color: white;
@@ -25,7 +25,7 @@ body {
 	color: white;
 	font-size: 16px;
 	float: right;
-	margin-right: 190px;
+	margin-right: 220px;
 	margin-top: 100px;
 	border-style: double;
 	border-color: white;
