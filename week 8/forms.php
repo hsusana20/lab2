@@ -6,6 +6,15 @@
 </head>
 <style>
 .error {color: #FF0000;}
+
+body {
+  background-image: url("bg.gif");
+}
+
+#div1 {
+	color: white;
+	font-size: 16px;
+}
 </style>
 <body>
 <?php
@@ -14,7 +23,7 @@ $name = $email = $gender = $comment = $website = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["name"])) {
-    $nameErr = "Name is required";
+    $nameErr = " Full Name is required";
   } else {
     $name = test_input($_POST["name"]);
     if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
@@ -60,8 +69,8 @@ function test_input($data) {
   return $data;
 }
 ?>
-
-<h2>PHP Form Validation</h2>
+<div id="div1">
+<h2>Fill up this Form</h2>
 <p><span class="error">* required field</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Full Name: <input type="text" name="name" value="<?php echo $name;?>">
@@ -83,6 +92,7 @@ function test_input($data) {
   <br><br>
   <input type="submit" name="submit" value="Submit">  
 </form>
+</div>
 
 <?php
 echo "<h2>Your Input:</h2>";
