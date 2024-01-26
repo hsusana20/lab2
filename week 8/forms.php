@@ -16,7 +16,7 @@ body {
 
 #div1 {
 	color: white;
-	font-size: 16px;
+	font-size: 19px;
 	float: left;
 	margin-left: 350px;
 	margin-top: 150px;
@@ -27,7 +27,7 @@ body {
 
 #div2 {
 	color: white;
-	font-size: 16px;
+	font-size: 19px;
 	float: right;
 	margin-right: 350px;
 	margin-top: 150px;
