@@ -14,7 +14,17 @@ body {
 #div1 {
 	color: white;
 	font-size: 16px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 50px;
 }
+
+#div2 {
+	color: white;
+	font-size: 16px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 50px;
 </style>
 <body>
 <?php
@@ -94,6 +104,7 @@ function test_input($data) {
 </form>
 </div>
 
+<div id="div2">
 <?php
 echo "<h2>Your Input:</h2>";
 echo $name;
@@ -106,7 +117,7 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
-
+</div>
 
 
 </body>
