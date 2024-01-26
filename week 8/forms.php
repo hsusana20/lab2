@@ -30,7 +30,6 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 10px;
-    margin-right: 200px;
 	text-align: center;
 	font-size: 25px;
 	font-style: bold;
