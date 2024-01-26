@@ -18,20 +18,22 @@ body {
 	color: white;
 	font-size: 16px;
 	float: left;
-	margin-left: 330px;
+	margin-left: 350px;
 	margin-top: 150px;
 	border-style: double;
 	border-color: white;
+	background-color: black;
 }
 
 #div2 {
 	color: white;
 	font-size: 16px;
 	float: right;
-	margin-right: 330px;
+	margin-right: 350px;
 	margin-top: 150px;
 	border-style: double;
 	border-color: white;
+	background-color: black;
 }
 </style>
 <body>
