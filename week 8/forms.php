@@ -6,6 +6,13 @@
 </head>
 <header>
    <img src="lesly.gif" alt="mm" style="width:200px;height:200px;"> 
+<nav>
+   <a href="welcome.php">Home</a>
+   <a href="index.php">About Me</a>
+   <a href="family.php">My Family</a>
+   <a href="my pets.php">My Pets</a>
+   <a href="forms.php">Forms</a>
+</nav>
 </header>
 <style>
 .error {color: #FF0000;}
@@ -13,6 +20,23 @@
 body {
   background-image: url("bg.gif");
 }
+
+nav {
+   display: flex;
+  }
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 200px;
+	text-align: center;
+	font-size: 25px;
+	font-style: bold;
+  }
+
+nav a:hover {
+      background-color: #555;
+    }
 
 #div1 {
 	color: white;
@@ -102,7 +126,7 @@ function test_input($data) {
   Website: <input type="text" name="website" value="<?php echo $website;?>">
   <span class="error"><?php echo $websiteErr;?></span>
   <br><br>
-  Message: <textarea name="message" rows="5" cols="40"><?php echo $comment;?></textarea>
+  Message: <textarea name="message" rows="5" cols="40"><?php echo $message;?></textarea>
   <br><br>
   Gender:
   <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
