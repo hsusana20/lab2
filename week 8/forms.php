@@ -15,16 +15,21 @@ body {
 	color: white;
 	font-size: 16px;
 	float: left;
-	margin-left: 150px;
+	margin-left: 190px;
 	margin-top: 100px;
+	border-style: double;
+	border-color: white;
 }
 
 #div2 {
 	color: white;
 	font-size: 16px;
 	float: right;
-	margin-right: 150px;
+	margin-right: 190px;
 	margin-top: 100px;
+	border-style: double;
+	border-color: white;
+}
 </style>
 <body>
 <?php
