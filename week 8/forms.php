@@ -15,7 +15,7 @@ body {
 	color: white;
 	font-size: 16px;
 	float: left;
-	margin-left: 120px;
+	margin-left: 150px;
 	margin-top: 100px;
 }
 
@@ -23,7 +23,7 @@ body {
 	color: white;
 	font-size: 16px;
 	float: right;
-	margin-right: 120px;
+	margin-right: 150px;
 	margin-top: 100px;
 </style>
 <body>
