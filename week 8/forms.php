@@ -69,6 +69,13 @@ nav a:hover {
 	border-color: white;
 	background-color: black;
 }
+
+#h2 {
+	color: white;
+	font-size: 45px;
+	font-family: "Sofia", sans-serif;
+	text-align: center;
+}
 </style>
 <body>
 <?php
@@ -123,8 +130,10 @@ function test_input($data) {
   return $data;
 }
 ?>
-<div id="div1">
+<div id="h2">
 <h2>Fill up this Form</h2>
+</div>
+<div id="div1">
 <p><span class="error">* required field</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Full Name: <input type="text" name="name" value="<?php echo $name;?>">
