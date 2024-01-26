@@ -13,6 +13,7 @@
    <a href="index.php">About Me</a>
    <a href="family.php">My Family</a>
    <a href="my pets.php">My Pets</a>
+   <a href="forms.php">Forms</a>
 </nav>
 </header>
 <style>
