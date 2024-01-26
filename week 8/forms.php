@@ -4,6 +4,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 </head>
+<header>
+   <img src="lesly.gif" alt="mm" style="width:200px;height:200px;"> 
+</header>
 <style>
 .error {color: #FF0000;}
 
@@ -15,8 +18,8 @@ body {
 	color: white;
 	font-size: 16px;
 	float: left;
-	margin-left: 300px;
-	margin-top: 100px;
+	margin-left: 330px;
+	margin-top: 150px;
 	border-style: double;
 	border-color: white;
 }
@@ -25,8 +28,8 @@ body {
 	color: white;
 	font-size: 16px;
 	float: right;
-	margin-right: 300px;
-	margin-top: 100px;
+	margin-right: 330px;
+	margin-top: 150px;
 	border-style: double;
 	border-color: white;
 }
