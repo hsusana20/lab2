@@ -73,9 +73,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
   if (empty($_POST["message"])) {
-    $comment = "";
+    $message = "";
   } else {
-    $comment = test_input($_POST["message"]);
+    $message = test_input($_POST["message"]);
   }
 
   if (empty($_POST["gender"])) {
