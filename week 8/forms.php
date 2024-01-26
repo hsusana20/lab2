@@ -15,7 +15,7 @@ body {
 	color: white;
 	font-size: 16px;
 	float: left;
-	margin-left: 220px;
+	margin-left: 250px;
 	margin-top: 100px;
 	border-style: double;
 	border-color: white;
@@ -25,7 +25,7 @@ body {
 	color: white;
 	font-size: 16px;
 	float: right;
-	margin-right: 220px;
+	margin-right: 250px;
 	margin-top: 100px;
 	border-style: double;
 	border-color: white;
@@ -64,10 +64,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
   }
 
-  if (empty($_POST["comment"])) {
+  if (empty($_POST["message"])) {
     $comment = "";
   } else {
-    $comment = test_input($_POST["comment"]);
+    $comment = test_input($_POST["message"]);
   }
 
   if (empty($_POST["gender"])) {
@@ -97,7 +97,7 @@ function test_input($data) {
   Website: <input type="text" name="website" value="<?php echo $website;?>">
   <span class="error"><?php echo $websiteErr;?></span>
   <br><br>
-  Suggestion/Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+  Message: <textarea name="message" rows="5" cols="40"><?php echo $comment;?></textarea>
   <br><br>
   Gender:
   <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
@@ -118,7 +118,7 @@ echo $email;
 echo "<br>";
 echo $website;
 echo "<br>";
-echo $comment;
+echo $message;
 echo "<br>";
 echo $gender;
 ?>
