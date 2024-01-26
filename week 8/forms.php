@@ -53,7 +53,7 @@ nav a:hover {
 	font-size: 19px;
 	float: left;
 	margin-left: 350px;
-	margin-top: 150px;
+	margin-top: 15px;
 	border-style: double;
 	border-color: white;
 	background-color: black;
@@ -64,7 +64,7 @@ nav a:hover {
 	font-size: 19px;
 	float: right;
 	margin-right: 350px;
-	margin-top: 150px;
+	margin-top: 15px;
 	border-style: double;
 	border-color: white;
 	background-color: black;
@@ -76,6 +76,12 @@ nav a:hover {
 	font-family: "Sofia", sans-serif;
 	text-align: center;
 }
+
+#p1 {
+	text-align: center;
+	font-size: 19px;
+}
+	
 </style>
 <body>
 <?php
@@ -133,8 +139,12 @@ function test_input($data) {
 <div id="h2">
 <h2>Fill up this Form</h2>
 </div>
-<div id="div1">
+
+<div id="p1">
 <p><span class="error">* required field</span></p>
+</div>
+
+<div id="div1">
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Full Name: <input type="text" name="name" value="<?php echo $name;?>">
   <span class="error">* <?php echo $nameErr;?></span>
