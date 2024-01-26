@@ -54,8 +54,6 @@ nav a:hover {
 	float: left;
 	margin-left: 350px;
 	margin-top: 15px;
-	border-style: double;
-	border-color: white;
 	background-color: black;
 }
 
@@ -65,8 +63,6 @@ nav a:hover {
 	float: right;
 	margin-right: 350px;
 	margin-top: 15px;
-	border-style: double;
-	border-color: white;
 	background-color: black;
 }
 
