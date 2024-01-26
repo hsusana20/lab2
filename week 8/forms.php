@@ -5,7 +5,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 </head>
 <header>
+   <div id="logo">
    <img src="lesly.gif" alt="mm" style="width:200px;height:200px;"> 
+   </div>
 <nav>
    <a href="welcome.php">Home</a>
    <a href="index.php">About Me</a>
