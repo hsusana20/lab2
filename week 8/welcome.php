@@ -52,7 +52,7 @@ nav a:hover {
   font-size: 50px;
   font-family: "Sofia", sans-serif;
   text-shadow: 3px 3px 3px #ababab;
-  color: white;
+  color: skyblue;
   text-align: center;
   }
 #p1 {
@@ -77,7 +77,7 @@ nav a:hover {
   margin-bottom: 500px;
   }
 #h2 {
-  color: white;
+  color: skyblue;
   font-size: 35px;
   font-family: "Sofia", sans-serif;
   text-shadow: 3px 3px 3px #ababab;
@@ -135,7 +135,7 @@ function checkTime(i) {
 </script>
 <button id="btn2" onclick="changeColor()">Change Color</button>
   <script>
-    let colors = ["blue", "red", "green", "orange", "purple", "white"]; // Add more colors as needed
+    let colors = ["blue", "red", "green", "orange", "purple", "white", "skyblue"]; // Add more colors as needed
     let colorIndex = 0;
 
     function changeColor() {

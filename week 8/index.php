@@ -25,7 +25,7 @@ body {
 #hg1{
     border-style:inset;
     border-color: black;
-	color: white;
+	color: skyblue;
 	border-width: 10px;
 	text-align: center;
 	font-style: oblique;
@@ -52,7 +52,7 @@ body {
 
   
 #parag2 {
-   color: white;
+   color: skyblue;
    text-align: center;
    margin-top: 0;
   }
@@ -65,22 +65,22 @@ div {
   }
   
 #div1 {
-   color: white;
+   color: skyblue;
    font-size: 16px;
   }
   
 #div2 {
-    color: white;
+    color: skyblue;
     font-size: 16px;
   }
   
 #div3 {
-    color: white;
+    color: skyblue;
     font-size: 16px;
   }
   
 #div4 {
-    color: white;
+    color: skyblue;
     font-size: 16px;
   }
   
@@ -192,7 +192,7 @@ div {
   }
 
 #parag4 {
-	color: white;
+	color: skyblue;
 	text-align: center;
   }
   
@@ -216,11 +216,11 @@ div {
   }
   
 #demo {
- color: white;
+ color: skyblue;
    }
   
 #switch {
-   color: white;
+   color: skyblue;
    font-size: 16px;
    right: 0;
   }
