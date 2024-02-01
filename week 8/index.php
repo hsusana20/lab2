@@ -4,6 +4,18 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Personal Profile Page</title>
+<header>
+   <div id="logo">
+   <img src="bruno.gif" alt="mm" style="width:180px;height:180px;"> 
+   </div>
+<nav>
+   <a href="welcome.php">Home</a>
+   <a href="index.php">About Me</a>
+   <a href="family.php">My Family</a>
+   <a href="my pets.php">My Pets</a>
+   <a href="forms.php">Forms</a>
+</nav>
+</header>
 <script>
 function goBack() {
   window.history.back()
@@ -20,6 +32,31 @@ function myFunction() {
 body {
    background-image: url("bg.gif");
   }
+
+header {
+     padding: 10px;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    }
+
+nav {
+   display: flex;
+  }
+nav a {
+    color: skyblue;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 190px;
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+  }
+
+nav a:hover {
+      background-color: #555;
+    }
   
 
 #hg1{
