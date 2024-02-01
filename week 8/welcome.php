@@ -36,7 +36,7 @@ nav {
    display: flex;
   }
 nav a {
-    color: white;
+    color: skyblue;
     text-decoration: none;
     padding: 10px;
     margin-right: 200px;
