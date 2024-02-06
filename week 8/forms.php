@@ -180,10 +180,10 @@ echo $gender;
 
 <?php
 // For Xampp Localhost
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "myDB";
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$dbname = "myDB";
 
 // For Socitcloud
 $servername = "localhost";
