@@ -179,10 +179,17 @@ echo $gender;
 </div>
 
 <?php
+// For Xampp Localhost
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$dbname = "myDB";
+
+//For Socitcloud
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "myDB";
+$username = "webprogmi221";
+$password = "g_6bCitLu.ljMK*m";
+$dbname = "webprogmi221";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -191,7 +198,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO mi221 (name, email, website, message, gender)
+$sql = "INSERT INTO hsusana_myguests (name, email, website, message, gender)
 VALUES ('$name', '$email', '$website', '$message', '$gender')";
 
 if ($conn->query($sql) === TRUE) {
