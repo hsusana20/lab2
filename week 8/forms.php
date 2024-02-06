@@ -203,8 +203,8 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO MyGuests (firstname, lastname, email)
-VALUES ('$name', '$website', '$email;')";
+$sql = "INSERT INTO hsusana_myguests (name, email, website, message, gender)
+VALUES ('$name', '$email', '$website, '$message', '$gender';')";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
