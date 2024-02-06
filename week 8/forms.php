@@ -199,7 +199,11 @@ if ($conn->connect_error) {
 }
 
 $sql = "INSERT INTO hsusana_myguests (name, email, website, message, gender)
+<<<<<<< HEAD
 VALUES ('$name', '$email', '$website', '$message', '$gender')";
+=======
+VALUES ('$name', '$email', '$website, '$message', '$gender')";
+>>>>>>> 4ee7ceaefc2319bf63235628ed22363841d122ac
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
